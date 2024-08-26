@@ -14,7 +14,7 @@ function App() {
     <button className='button' >mostrar resultados</button>
     <button className='button' >dividir</button>
     <button className='button' >multiplicar</button>
-    <button className='button'>limpiar</button>
+ 
     </div>
     </>
   )

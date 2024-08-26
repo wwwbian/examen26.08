@@ -7,6 +7,10 @@ function Grilla() {
     const values = (value) => {
       setValue(((prevValue) => prevValue + value)); 
     };
+    const limpiar = (value) => {
+        setValue(''); 
+      };
+
   return (
 
     <>
@@ -22,6 +26,7 @@ function Grilla() {
       <button className="item" onClick={() => values(8)}>8</button>
       <button className="item" onClick={() => values(9)} >9</button>
     </div>
+    <button onClick={limpiar} className='button'>limpiar</button>
     </>
   )
 }
